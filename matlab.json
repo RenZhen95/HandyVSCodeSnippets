@@ -1,0 +1,42 @@
+{
+	// Place your snippets for matlab here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	
+	"Description": {
+		"prefix": "heading",
+		"body": [
+			"%%%%%!!!!!---------------------------------------!!!!!%%%%%",
+			"%% (Heading) ",
+	 		"%%%%%!!!!!---------------------------------------!!!!!%%%%%",
+		],
+		"description": "Headings for title or subtitles in matlab code"
+	}
+
+	"Author": {
+        "prefix": "author",
+		"body": [
+			"% Author: 			Liaw Jin Cheng",
+			"% Email: 			jin.liaw@stud.uni-due.de",
+			"% Matriculation: 	3025341",
+		],
+		"description": "Inserts author, email and matriculation number"
+	}
+
+	"Note1": {
+        "prefix": "note1",
+		"body": [
+			"% -> ",
+		],
+		"description": "Note Level 1"
+	}
+
+	"Note2": {
+        "prefix": "note2",
+		"body": [
+			"%	 -> ",
+		],
+		"description": "Note Level 1"
+	}
+}
