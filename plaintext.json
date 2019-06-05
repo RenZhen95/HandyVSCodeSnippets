@@ -23,4 +23,28 @@
 		],
 		"description": "Enter title/subtitle"
 	}
+
+	"Note1": {
+		"prefix": "note1",
+		"body": [
+			"-> ",
+		],
+		"description": "Indentation Level 1"
+	}
+
+	"Note2": {
+		"prefix": "note2",
+		"body": [
+			"	-> ",
+		],
+		"description": "Indentation Level 2"
+	}
+
+	"Note3": {
+		"prefix": "note3",
+		"body": [
+			"		-> ",
+		],
+		"description": "Indentation Level 3"
+	}
 }
