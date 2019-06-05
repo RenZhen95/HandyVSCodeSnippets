@@ -1,9 +1,5 @@
-# HandyVSCodeSnippets
-Author: Jonathan Liaw
-
-Email: j-liaw@hotmail.com
-
-# Description
+# Handy Visual Studio Code Snippets
+## Description
 My own handy Visual Studio Code User Snippets
 
 Setup: (e.g. Python)
@@ -12,5 +8,5 @@ Setup: (e.g. Python)
   - Select python.json
   - Copy and paste code into the file (python.json for this example)
  
-# References
+## References
 https://code.visualstudio.com/docs/editor/userdefinedsnippets
