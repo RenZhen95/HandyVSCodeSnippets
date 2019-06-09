@@ -14,6 +14,14 @@
 		"description": "Headings for title or subtitles in python code"
 	}
 
+	"Heading": {
+        "prefix": "heading",
+		"body": [
+	 		"## "
+		],
+		"description": "Headings for title or subtitles in python code"
+	}
+
 	"Date": {
         "prefix": "date",
 		"body": [
