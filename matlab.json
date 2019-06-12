@@ -4,12 +4,22 @@
 	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
 	// same ids are connected.
 	
-	"Description": {
-		"prefix": "heading",
+	"Header": {
+		"prefix": "header",
 		"body": [
 			"%%%%%!!!!!---------------------------------------!!!!!%%%%%",
-			"%% (Heading) ",
+			"% $0",
 	 		"%%%%%!!!!!---------------------------------------!!!!!%%%%%",
+		],
+		"description": "Headings for title or subtitles in matlab code"
+	}
+
+	"Sub-Header": {
+		"prefix": "subhead",
+		"body": [
+			"%==========================================================",
+			"% $0",
+	 		"%==========================================================",
 		],
 		"description": "Headings for title or subtitles in matlab code"
 	}
@@ -27,7 +37,7 @@
 	"Note1": {
         "prefix": "note1",
 		"body": [
-			"% -> ",
+			"%-> ",
 		],
 		"description": "Note Level 1"
 	}
@@ -35,8 +45,8 @@
 	"Note2": {
         "prefix": "note2",
 		"body": [
-			"%	 -> ",
+			"%\t-> ",
 		],
-		"description": "Note Level 1"
+		"description": "Note Level 2"
 	}
 }
