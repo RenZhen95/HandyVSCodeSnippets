@@ -11,15 +11,17 @@
 			"# (Title) ",
 	 		"############--------------------------------############"
 		],
-		"description": "Headings for title or subtitles in python code"
+		"description": "Headings for title in python code"
 	}
 
 	"Heading": {
         "prefix": "heading",
 		"body": [
-	 		"## "
+			"#=======================================================",
+			"# $0",
+			"#=======================================================", 
 		],
-		"description": "Headings for title or subtitles in python code"
+		"description": "Headings for subtitles in python code"
 	}
 
 	"Date": {
@@ -34,7 +36,7 @@
         "prefix": "author",
 		"body": [
 			"# Author: 	Liaw Jin Cheng",
-			"# Email: 	j-liaw@hotmail.com, jin.liaw@stud.uni-due.de",
+			"# Email: 	j-liaw@hotmail.com",
 		],
 		"description": "Inserts author and email"
 	}
@@ -42,20 +44,20 @@
 	"Note_Level1": {
         "prefix": "note1",
 		"body": [
-			"#\t-->",
+			"#\t-> $0",
 		],
 	}
 
 	"Note_Level2": {
         "prefix": "note2",
 		"body": [
-			"#\t\t+",
+			"#\t\t- $0",
 		],
 	}
 
 	"Note_Level3": {
         "prefix": "note3",
 		"body": [
-			"#\t\t\t+",
+			"#\t\t\t- $0",
 		],
 	}
