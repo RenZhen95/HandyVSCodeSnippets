@@ -18,7 +18,7 @@
 		"prefix": "title",
 		"body": [
 			"======================================================================",
-			"## (Title)",
+			"# $0",
 			"======================================================================",
 		],
 		"description": "Enter title/subtitle"
@@ -27,7 +27,7 @@
 	"Note1": {
 		"prefix": "note1",
 		"body": [
-			"-> ",
+			"-> $0",
 		],
 		"description": "Indentation Level 1"
 	}
@@ -35,7 +35,7 @@
 	"Note2": {
 		"prefix": "note2",
 		"body": [
-			"	-> ",
+			"/t-> $0",
 		],
 		"description": "Indentation Level 2"
 	}
@@ -43,7 +43,7 @@
 	"Note3": {
 		"prefix": "note3",
 		"body": [
-			"		-> ",
+			"/t/t-> $0",
 		],
 		"description": "Indentation Level 3"
 	}

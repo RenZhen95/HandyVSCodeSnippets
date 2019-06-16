@@ -37,7 +37,7 @@
 	"Note1": {
         "prefix": "note1",
 		"body": [
-			"%-> ",
+			"%-> $0",
 		],
 		"description": "Note Level 1"
 	}
@@ -45,7 +45,7 @@
 	"Note2": {
         "prefix": "note2",
 		"body": [
-			"%\t-> ",
+			"%\t-> $0",
 		],
 		"description": "Note Level 2"
 	}
