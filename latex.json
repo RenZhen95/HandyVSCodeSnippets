@@ -6,7 +6,7 @@
 
 	// This JSON code snippet for latex is mainly aimed at making useful comment blocks
 	"SectionTitle": {
-        "prefix": "section",
+        "prefix": "header",
 		"body": [
 			"%=======================================================",
 			"% $0",
