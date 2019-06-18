@@ -12,6 +12,15 @@
 		"description": "Enter date of your own format. Preference: MMM-DD-YYYY"
 	}
 
+	"Author": {
+		"prefix": "author",
+		"body": [
+			"# Jonathan Liaw",
+			"# Email: j-liaw@hotmail.com"
+		],
+		"description": "Author information"
+	}
+
 	"Title": {
 		"prefix": "title",
 		"body": [
