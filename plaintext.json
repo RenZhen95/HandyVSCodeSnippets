@@ -7,9 +7,7 @@
 	"Date": {
 		"prefix": "date",
 		"body": [
-			"############----------------------------------------------############",
-			"${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR}",
-			"############----------------------------------------------############",
+			"Date:-${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR}-"
 		],
 		"description": "Enter date of your own format. Preference: MMM-DD-YYYY"
 	}
@@ -35,7 +33,7 @@
 	"Note2": {
 		"prefix": "note2",
 		"body": [
-			"/t-> $0",
+			"\t-> $0",
 		],
 		"description": "Indentation Level 2"
 	}
@@ -43,7 +41,7 @@
 	"Note3": {
 		"prefix": "note3",
 		"body": [
-			"/t/t-> $0",
+			"\t\t-> $0",
 		],
 		"description": "Indentation Level 3"
 	}
