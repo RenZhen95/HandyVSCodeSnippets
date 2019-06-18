@@ -7,7 +7,7 @@
 	"Date": {
 		"prefix": "date",
 		"body": [
-			"Date:-${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR}-"
+			"|Date: ${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR}|"
 		],
 		"description": "Enter date of your own format. Preference: MMM-DD-YYYY"
 	}
