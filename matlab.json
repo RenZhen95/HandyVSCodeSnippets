@@ -14,6 +14,14 @@
 		"description": "Headings for title or subtitles in matlab code"
 	}
 
+	"Date": {
+		"prefix": "date",
+		"body": [
+			"% |Date: ${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR}|"
+		],
+		"description": "Enter date of your own format. Preference: MMM-DD-YYYY"
+	}
+
 	"Sub-Header": {
 		"prefix": "subhead",
 		"body": [
