@@ -57,4 +57,12 @@
 		],
 		"description": "Note Level 2"
 	}
+
+	"Note3": {
+        "prefix": "note3",
+		"body": [
+			"%\t\t-> $0",
+		],
+		"description": "Note Level 3"
+	}
 }
