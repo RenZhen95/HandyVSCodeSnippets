@@ -13,21 +13,30 @@
 			"%======================================================="
 		],
 		"description": "Header for a section in a tex file"
-	}
+	},
 
 	"NoteLevel1": {
-        "prefix": "note1",
+        "prefix": "n1",
 		"body": [
-			"%-> $0"
+			"% -> $0"
 		],
 		"description": "Comment note level 1"
-	}
+	},
 
 	"NoteLevel2": {
-        "prefix": "note2",
+        "prefix": "n2",
 		"body": [
 			"%\t-> $0"
 		],
 		"description": "Comment note level 2"
+	},
+
+	"PreAmble": {
+        "prefix": "pre",
+		"body": [
+			"\\title{$0}",
+			"\\author{Liaw Jin Cheng}"
+		],
+		"description": "Adds in the preamble: Title, Author, Date"
 	}
 }
