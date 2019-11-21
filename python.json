@@ -61,3 +61,11 @@
 			"#\t\t\t-> $0",
 		],
 	}
+
+	"Make New Block": {
+        "prefix": "nb",
+		"body": [
+			"# %%",
+		],
+	}
+}
