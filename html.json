@@ -1,0 +1,43 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	"Header":
+	{
+		"prefix": "start", 
+		"body": 
+		[
+			"<!DOCTYPE html>", 
+			"<html lang=\"en\">", 
+  			"\t<head>", 
+    		"\t\t<meta charset=\"utf-8\">"
+    		"\t\t<meta http-equiv=\"X-UA-Compatible\"content=\"IE=edge\">", 
+    		"\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">", 
+    		"\t\t<meta name=\"description\" content=\"\">", 
+    		"\t\t<meta name=\"author\" content=\"Jonathan Liaw\">", 	
+			"\t\t\t<title>$0</title>", 
+			"\t\t\t<link rel=\"stylesheet\" href=\"css/normalize.css\">",
+			"\t\t\t<link rel=\"stylesheet\" href=\"css/style.css\">", 
+			"\t\t</head>"
+		]
+	},
+
+	"Comment":
+	{
+		"prefix": "co",
+		"body":
+		[
+			"<!--$0-->"
+		]
+	},
+
+	"Insert Hyperlink":
+	{
+		"prefix": "hyper", 
+		"body":
+		[
+			"<a href=\"${1:link}\" target=\"_blank\">$0</a>"
+		]
+	}
+}

@@ -4,68 +4,75 @@
 	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
 	// same ids are connected.
 	
-	"Title": {
-        "prefix": "title",
-		"body": [
+	"Title": 
+	{
+        "prefix": "title", 
+		"body": 
+		[
 			"############--------------------------------############",
 			"# $0",
 	 		"############--------------------------------############"
 		],
 		"description": "Headings for title in python code"
-	}
+	},
 
-	"Heading": {
-        "prefix": "heading",
-		"body": [
-			"#=======================================================",
-			"# $0",
+	"Heading":
+	{
+        "prefix": "heading", 
+		"body": 
+		[
 			"#=======================================================", 
+			"# $0", 
+			"#======================================================="  
 		],
 		"description": "Headings for subtitles in python code"
-	}
+	},
 
-	"Date": {
+	"Date": 
+	{
         "prefix": "date",
-		"body": [
-			"# |${CURRENT_DATE} ${CURRENT_MONTH_NAME_SHORT} ${CURRENT_YEAR_SHORT}|",
+		"body": 
+		[
+			"# |${CURRENT_DATE} ${CURRENT_MONTH_NAME_SHORT} ${CURRENT_YEAR_SHORT}|"
 		],
 		"description": "Inserts current date"
-	}
+	},
 
-	"Author": {
+	"Author": 
+	{
         "prefix": "author",
-		"body": [
-			"# Author: 	Liaw Jin Cheng",
-			"# Email: 	j-liaw@hotmail.com",
+		"body": 
+		[
+			"# Author\t: Liaw Jin Cheng", 
+			"# Email\t\t: j-liaw@hotmail.com"
 		],
 		"description": "Inserts author and email"
-	}
+	},
 
-	"Note_Level1": {
+	"Note_Level1": 
+	{
         "prefix": "note1",
-		"body": [
+		"body": 
+		[
 			"#\t-> $0",
 		],
-	}
+	},
 
-	"Note_Level2": {
+	"Note_Level2": 
+	{
         "prefix": "note2",
-		"body": [
+		"body": 
+		[
 			"#\t\t-> $0",
 		],
-	}
+	},
 
-	"Note_Level3": {
+	"Note_Level3": 
+	{
         "prefix": "note3",
-		"body": [
+		"body": 
+		[
 			"#\t\t\t-> $0",
-		],
-	}
-
-	"Make New Block": {
-        "prefix": "nb",
-		"body": [
-			"# %%",
 		],
 	}
 }

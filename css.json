@@ -1,0 +1,51 @@
+{
+	// Place your snippets for css here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	"Standard Start":
+	{
+		"prefix": "ss",
+		"body":
+		[
+			"*",
+			"{",
+			"\t/* Box Model Hack */", 
+			"\t-moz-box-sizing: border-box;\t\t/* Firexfox */",
+			"\t-webkit-box-sizing: border-box;\t\/* Safari, Chrome, iOS, Android */",
+			"\tbox-sizing: border-box;\t\t/* Internet Explorer */", 
+			"}",
+			".clear",
+			"{", 
+			"\t/* Clear Class */", 
+			"\tclear: both;",
+			"}" 
+		]
+	},
+
+	"Align Left":
+	{
+		"prefix": "aleft",
+		"body":
+		[
+			".alignleft", 
+			"{",
+			"\tfloat: left;",
+			"\tmargin: 0 15px 15px 0",
+			"}"
+		]
+	},
+
+	"Align Right":
+	{
+		"prefix": "aright", 
+		"body":
+		[
+			".alignright", 
+			"{",
+			"\tfloat: right;",
+			"\tmargin: 0 0 15px 15px",
+			"}"
+		]
+	}
+}
