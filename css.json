@@ -13,7 +13,7 @@
 			"\t/* Box Model Hack */", 
 			"\t-moz-box-sizing: border-box;\t\t/* Firexfox */",
 			"\t-webkit-box-sizing: border-box;\t\/* Safari, Chrome, iOS, Android */",
-			"\tbox-sizing: border-box;\t\t/* Internet Explorer */", 
+			"\tbox-sizing: border-box;\t\t\t/* Internet Explorer */", 
 			"}",
 			".clear",
 			"{", 
