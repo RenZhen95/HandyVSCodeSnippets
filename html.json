@@ -23,6 +23,27 @@
 		]
 	},
 
+	"Author":
+	{
+		"prefix": "author",
+		"body":
+		[
+			"<!--===============================-->",
+			"<!-- Author :\tJonathan Liaw ------->", 
+			"<!-- Email  :\tj-liaw@hotmail.com -->",
+			"<!--===============================-->"
+		]
+	},
+
+	"Date":
+	{
+		"prefix": "date",
+		"body":
+		[
+			"<!-- |${CURRENT_DATE} ${CURRENT_MONTH_NAME_SHORT} ${CURRENT_YEAR_SHORT}| -->"
+		]
+	}
+
 	"Comment":
 	{
 		"prefix": "co",
